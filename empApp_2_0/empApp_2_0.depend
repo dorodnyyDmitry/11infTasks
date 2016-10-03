@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1475515019 source:c:\users\ִלטענטי\documents\workspace\empapp2_0\empapp_2_0\empappfunc_2_0.cpp
+	"empAppHead_2_0.h"
+
+1475515000 c:\users\ִלטענטי\documents\workspace\empapp2_0\empapp_2_0\empapphead_2_0.h
+	<iostream>
+	<fstream>
+	<vector>
+
