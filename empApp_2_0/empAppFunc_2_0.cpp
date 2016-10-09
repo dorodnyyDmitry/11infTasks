@@ -21,6 +21,8 @@ void db_read(){
     while(fin.read((char*)&temp, sizeof(Employee)))
         list.push_back(temp);
     fin.close();
+    for(int i = 0; i < get_amount(); i++)
+                cout << list[i].name << " " << list[i].job << " " << list[i].salary << "\n";
 }
 
 void set_pointers(){

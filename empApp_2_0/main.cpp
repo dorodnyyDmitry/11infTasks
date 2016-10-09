@@ -18,9 +18,11 @@ int get_menu_pos() {
 }
 
 int main() {
+    Employee temp;
     bool run = true;
     int how_much;
     get_amount(); //Count amount of written employees
+    cout << "Currest database state: \n";
     db_read();
 
     while(run){ //Menu
@@ -28,8 +30,7 @@ int main() {
         switch(selected_menu_pos){
         case 1:
             db_read();
-            for(int i = 0; i < get_amount(); i++)
-                cout << list[i].name << " " << list[i].job << " " << list[i].salary << "\n";
+
             cout << "\n===============================\n";
             break;
         case 2:
@@ -49,7 +50,7 @@ int main() {
             break;
         case 5:
             db_read();
-            cout << list.size() << "\n";
+            //cout << list.size() << "\n";
             break;
         case 6:
             run = false;

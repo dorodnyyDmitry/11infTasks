@@ -32,6 +32,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="empAppFunc_2_0.cpp" />
+		<Unit filename="empAppHead_2_0.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
