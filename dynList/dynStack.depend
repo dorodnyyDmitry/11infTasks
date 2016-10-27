@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1477477359 source:c:\users\ִלטענטי\documents\workspace\dynlist\dynstackfunc.cpp
+	"dynStackFunc.h"
+
+1477477817 c:\users\ִלטענטי\documents\workspace\dynlist\dynstackfunc.h
+	<string>
+	<string.h>
+	<iostream>
+	<map>
+
+1477475071 source:c:\users\ִלטענטי\documents\workspace\dynlist\main.cpp
+	"dynStackFunc.h"
+
